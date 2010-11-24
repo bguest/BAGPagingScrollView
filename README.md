@@ -14,10 +14,9 @@ Getting Started
 3. Set the dataSource of the BAGPagingScrollView you just created.
 4. In the dataSource implement:
 	- `-(NSInterger)numberOfPagesForScrollView:(BAGPagingScrollView*)pagingScrollView;`
-	- `-(UIView*)pagingScrollView:(BAGPagingScrollView*)pagingScrollView
-	             viewForPageIndex:(int)index;`
+	- `-(UIView*)pagingScrollView:(BAGPagingScrollView*)pagingScrollView viewForPageIndex:(int)index;`
 	
-	(See the BAGPagingScrollViewDataSource protocal in BAGPagingScrollView.h)
+	(See the BAGPagingScrollViewDataSource protocol in BAGPagingScrollView.h)
 5. Smile!
 
 Notes
